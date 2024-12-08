@@ -21,7 +21,7 @@ app.use('/assignment',Assign);
 app.use('/meterial',material);
 
 
-const DB="mongodb+srv://user2024:2024@cluster0.in6i5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const uri = "mongodb://localhost:27017/miniproject";
 mongoose
   .connect(uri)
